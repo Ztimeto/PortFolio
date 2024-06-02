@@ -10,12 +10,12 @@
 <body>
     
     <header class="header">
-        <a href="#" class="logo">Nov.</a>
+        <a href="#" class="logo">Portfolio</a>
 
         <nav class="navbar">
             <a href="#" class="active">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
+            <a href="#about">About</a>
+            <a href="#project">Project</a>
             <a href="#">Portfolio</a>
             <a href="#">Contact</a>
         </nav>
@@ -26,10 +26,11 @@
             <h2>Halo, nama saya</h2>
             <h1>Muhammad Nouval</h1>
             <h3>UI/UX Designer</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                Veritatis a magnam expedita incidunt esse nobis. 
-                Omnis ut quis nulla. Magni architecto laborum illo ullam, 
-                impedit rem quibusdam porro blanditiis reiciendis.
+            <p>Saya memiliki keterampilan dalam pemerograman, 
+                analisis, pengembangan web. Saya berpengalaman 
+                dalam mengembangkan aplikasi web menggunakan 
+                berbagai teknologi, termasuk Vue.js dan juga saya 
+                sempat membuat game menggunakan unity 
             </p>
             <div class="btn-box">
                 <a href="#" class="btn">contact me</a>
@@ -38,10 +39,58 @@
         </div>
 
         <div class="home-sci">
-            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.instagram.com/clufy_2/"><i class='bx bxl-instagram'></i></a>
             <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+        </div>
+
+        <span class="home-imghover"></span>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+
+        <div class="about-img">
+            <img src="img/me.png" height="350px" width="450px">
+            <span class="circle-spin"></span>
+        </div>
+
+        <div class="about-content">
+            <h3>UI/UX Designer</h3>
+            <p>Lorem ipsum, dolor 
+                sit amet consectetur adipisicing elit. 
+                Ea delectus voluptates assumenda consectetur, 
+                facere fugiat dignissimos minus ex? Sed pariatur 
+                vero et similique ea vel obcaecati earum odio possimus 
+                repellendus.
+            </p>
+
+            <div class="btn-box btns">
+                <a href="#" class="btn">Read More</a>
+            </div>
         </div>
     </section>
 
+    <section class="project" id="project">
+        <h2 class="heading">My <span>Project</span></h2>
+        <div class="project-row-1">
+            <div class="project-col-1">
+                <div class="project-img-1"></div>
+                <h3 class="title">e-commerce</h3>
+                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </div>
+        </div>
+        <br><br>
+        <div class="project-row-2">
+            <div class="project-col-2">
+                <div class="project-img-2"></div>
+                <h3 class="title">Uprak</h3>
+                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </div>
+        </div>
+    </section>
+
+    <script src="js/index.js"></script>
 </body>
 </html>

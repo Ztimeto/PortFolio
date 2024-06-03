@@ -355,11 +355,11 @@ span{
 }
 
 .about-content h3{
-    font-size: 2.6rem;
+    font-size: 35px;
 }
 
 .about-content p {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     margin: 2rem 0 3rem;
 }
 
@@ -368,6 +368,26 @@ span{
     width: 15rem;
 }
 
+.project{
+    text-align: center;
+    font-size: 15px;
+}
+
+.project-row-1 h3{
+    font-size: 30px;    
+}
+
+.project-row-1 p{
+    font-size: 20px;
+}
+
+.project-row-2 h3{
+    font-size: 30px;
+}
+
+.project-row-2 p{
+    font-size: 20px;
+}
 
 /* KEYFRAMES ANIMATION */
 @keyframes showRigth{
